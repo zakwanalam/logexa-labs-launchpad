@@ -1,11 +1,11 @@
-const steps = ["Discovery", "Planning", "Development", "Launch", "Scale"];
+const steps = ["Discovery", "Strategy", "Development", "Launch", "Scale"];
 
 const ProcessSection = () => {
   return (
     <section id="process" className="py-28 relative">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <p className="text-sm font-medium text-accent uppercase tracking-widest mb-3">How We Work</p>
+          <p className="text-sm font-medium text-primary uppercase tracking-widest mb-3">How We Work</p>
           <h2 className="font-display text-4xl sm:text-5xl font-bold">Development Process</h2>
         </div>
 
@@ -13,7 +13,7 @@ const ProcessSection = () => {
           {steps.map((step, i) => (
             <div key={step} className="flex items-center opacity-0 animate-fade-up" style={{ animationDelay: `${i * 0.12}s` }}>
               <div className="flex flex-col items-center text-center">
-                <div className="w-14 h-14 rounded-full border-2 border-primary/50 bg-primary/10 flex items-center justify-center mb-3 shadow-[0_0_20px_hsl(263_70%_66%/0.25)]">
+                <div className="w-14 h-14 rounded-full border-2 border-primary/50 bg-primary/10 flex items-center justify-center mb-3 shadow-[0_0_20px_hsl(73_92%_48%/0.25)]">
                   <span className="font-display text-sm font-bold text-primary">{String(i + 1).padStart(2, "0")}</span>
                 </div>
                 <span className="text-sm font-medium text-foreground">{step}</span>

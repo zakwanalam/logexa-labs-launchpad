@@ -13,12 +13,12 @@ const services = [
   },
   {
     icon: Globe,
-    title: "Web & SaaS Development",
+    title: "Web Application Development",
     description: "High-performance web applications and SaaS platforms designed for scale and user delight.",
   },
   {
     icon: Cloud,
-    title: "Cloud & Infrastructure Engineering",
+    title: "Cloud Infrastructure Engineering",
     description: "Robust cloud architectures that ensure reliability, security, and seamless scalability.",
   },
 ];
@@ -36,7 +36,7 @@ const ServicesSection = () => {
           {services.map((service, i) => (
             <div
               key={service.title}
-              className="glass-card p-8 group hover-glow hover:glow-border-primary transition-all duration-500 opacity-0 animate-fade-up"
+              className="glass-card p-8 group hover-glow transition-all duration-500 opacity-0 animate-fade-up"
               style={{ animationDelay: `${i * 0.1}s` }}
             >
               <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-5 group-hover:bg-primary/20 transition-colors">
