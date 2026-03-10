@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import ThemeToggle from "./ThemeToggle";
 
 const navLinks = ["Services", "Projects", "Process", "About"];
 
@@ -30,6 +31,7 @@ const Navbar = () => {
           >
             Start a Project
           </a>
+          <ThemeToggle />
         </div>
 
         <button className="md:hidden text-foreground" onClick={() => setOpen(!open)}>
