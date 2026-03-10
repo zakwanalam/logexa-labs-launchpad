@@ -1,9 +1,11 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import HeroBackground from "./HeroBackground";
 
 const HeroSection = () => {
+  const navigate = useNavigate();
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <HeroBackground />
@@ -43,10 +45,10 @@ const HeroSection = () => {
           transition={{ duration: 0.7, delay: 0.75 }}
           className="mt-10 flex flex-col sm:flex-row gap-4 justify-center"
         >
-          <Button variant="hero" size="lg" className="text-base px-8 py-6">
+          <Button variant="hero" size="lg" className="text-base px-8 py-6" onClick={() => navigate("/booking")}>
             Start a Project <ArrowRight size={18} />
           </Button>
-          <Button variant="heroOutline" size="lg" className="text-base px-8 py-6">
+          <Button variant="heroOutline" size="lg" className="text-base px-8 py-6" onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}>
             View Our Work
           </Button>
         </motion.div>
