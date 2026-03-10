@@ -28,7 +28,7 @@ const CTASection = () => {
           </p>
         </AnimatedSection>
         <AnimatedSection delay={0.3}>
-          <Button variant="hero" size="lg" className="text-base px-10 py-6">
+          <Button variant="hero" size="lg" className="text-base px-10 py-6" onClick={() => navigate("/booking")}>
             Start Your Project <ArrowRight size={18} />
           </Button>
         </AnimatedSection>
