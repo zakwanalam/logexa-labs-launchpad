@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import AnimatedSection from "./AnimatedSection";
 
 const CTASection = () => {
+  const navigate = useNavigate();
   return (
     <section id="cta" className="py-28 relative">
       <div className="absolute inset-0 grid-bg" />
