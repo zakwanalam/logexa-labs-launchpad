@@ -31,6 +31,7 @@ const Navbar = () => {
           >
             Start a Project
           </a>
+          <ThemeToggle />
         </div>
 
         <button className="md:hidden text-foreground" onClick={() => setOpen(!open)}>
