@@ -1,9 +1,12 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import projectFootfinesse from "@/assets/project-footfinesse.jpg";
-import projectFootfinesse2 from "@/assets/project-footfinesse-2.png";
-import projectFootfinesse3 from "@/assets/project-footfinesse-3.png";
-import f3Image1 from "@/assets/F3/Screenshot 2026-03-12 201506.png";
+import vitcare1 from "@/assets/Vitcare/Screenshot_14-3-2026_3252_vitcare.vercel.app.jpeg";
+import vitcare2 from "@/assets/Vitcare/Screenshot_14-3-2026_3319_vitcare.vercel.app.jpeg";
+import vitcare3 from "@/assets/Vitcare/Screenshot_14-3-2026_3358_vitcare.vercel.app.jpeg";
+import vitcare4 from "@/assets/Vitcare/Screenshot_14-3-2026_3426_vitcare.vercel.app.jpeg";
+import vitcare5 from "@/assets/Vitcare/Screenshot_14-3-2026_3548_vitcare.vercel.app.jpeg";
+import vitcare6 from "@/assets/Vitcare/screenshot-1773439515807.png";
+import f3Image1 from "@/assets/F3/f3main.jpeg";
 import f3Image2 from "@/assets/F3/Screenshot 2026-03-12 201637.png";
 import f3Image3 from "@/assets/F3/Screenshot 2026-03-12 201735.png";
 import f3Image4 from "@/assets/F3/Screenshot 2026-03-12 202218.png";
@@ -17,9 +20,12 @@ import f3Image11 from "@/assets/F3/Screenshot_12-3-2026_203248_admin.f3.properti
 import f3Image12 from "@/assets/F3/Screenshot_13-3-2026_201326_f3.properties.jpeg";
 import f3Image13 from "@/assets/F3/Screenshot_13-3-2026_201417_f3.properties.jpeg";
 import f3Image14 from "@/assets/F3/Screenshot_13-3-2026_201452_f3.properties.jpeg";
-import projectDashboard from "@/assets/project-dashboard.jpg";
-import projectDashboard2 from "@/assets/project-dashboard-2.png";
-import projectDashboard3 from "@/assets/project-dashboard-3.png";
+import bravoGym6 from "@/assets/Bravo Gym/Screenshot_14-3-2026_22436_fitness-53um.vercel.app copy.jpeg"
+import bravoGym2 from "@/assets/Bravo Gym/Screenshot_14-3-2026_22452_fitness-53um.vercel.app.jpeg";
+import bravoGym1 from "@/assets/Bravo Gym/Screenshot_14-3-2026_2248_fitness-53um.vercel.app.jpeg";
+import bravoGym4 from "@/assets/Bravo Gym/Screenshot_14-3-2026_22535_fitness-53um.vercel.app.jpeg";
+import bravoGym5 from "@/assets/Bravo Gym/Screenshot_14-3-2026_23055_fitness-53um.vercel.app.jpeg";
+import bravoGym3 from "@/assets/Bravo Gym/Screenshot 2026-03-14 023014.png";
 import AnimatedSection from "./AnimatedSection";
 import {
   Dialog,
@@ -38,14 +44,14 @@ import {
 
 const projects = [
   {
-    image: projectFootfinesse,
-    gallery: [projectFootfinesse, projectFootfinesse2, projectFootfinesse3],
-    title: "FootFinesse",
-    category: "Ecommerce Platform",
-    description: "A premium sneaker marketplace with AI-powered recommendations and seamless checkout.",
+    image: vitcare1,
+    gallery: [vitcare1, vitcare2, vitcare3, vitcare4, vitcare5, vitcare6],
+    title: "VitCare - Clinic",
+    category: "Clinic Management System",
+    description: "A premium clinic management system with  seamless appointment booking.",
   },
   {
-    image: f3Image6,
+    image: f3Image1,
     gallery: [
       f3Image1, f3Image2, f3Image3, f3Image4, f3Image5,
       f3Image6, f3Image7, f3Image8, f3Image9, f3Image10,
@@ -56,11 +62,11 @@ const projects = [
     description: "A comprehensive real estate platform featuring property management, advanced search capabilities, and an intuitive admin dashboard.",
   },
   {
-    image: projectDashboard,
-    gallery: [projectDashboard, projectDashboard2, projectDashboard3],
-    title: "Custom Business Dashboard",
-    category: "Analytics Platform",
-    description: "Real-time business intelligence dashboard with advanced data visualization.",
+    image: bravoGym1,
+    gallery: [bravoGym1, bravoGym6, bravoGym2, bravoGym4, bravoGym3, , bravoGym5,],
+    title: "Bravo Gym Website",
+    category: "Website",
+    description: "A modern website for Bravo Gym with advanced features.",
   },
 ];
 
