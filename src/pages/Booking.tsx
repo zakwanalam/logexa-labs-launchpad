@@ -20,6 +20,7 @@ const SERVICE_OPTIONS = [
   "Custom Website Development",
   "E-commerce Platform",
   "Web Application (SaaS)",
+  "AI Automation",
   "Landing Page / Marketing Site",
   "Website Redesign",
   "CMS / Blog Development",

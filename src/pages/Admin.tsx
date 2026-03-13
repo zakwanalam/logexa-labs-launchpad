@@ -46,7 +46,7 @@ const Admin = () => {
         // Handle both simple arrays and wrapped objects
         const bookingsArray = data?.bookings || (Array.isArray(data) ? data : []);
         setBookings(bookingsArray);
-        
+
         if (data?.debugInfo) {
           console.log("Connect Info:", data.debugInfo);
         }
