@@ -7,7 +7,7 @@ import AnimatedSection from "./AnimatedSection";
 const CTASection = () => {
   const navigate = useNavigate();
   return (
-    <section id="cta" className="py-28 relative">
+    <section id="cta" className="py-28 relative overflow-hidden">
       <div className="absolute inset-0 grid-bg" />
       <motion.div
         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/6 rounded-full blur-[150px]"
