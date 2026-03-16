@@ -66,7 +66,7 @@ const Icons = {
   ),
   whatsapp: () => (
     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
-      <path fill="#fff" d="M4.9,43.3l2.7-9.8C5.9,30.6,5,27.3,5,24C5,13.5,13.5,5,24,5c5.1,0,9.8,2,13.4,5.6C41,14.2,43,18.9,43,24	c0,10.5-8.5,19-19,19c0,0,0,0,0,0h0c-3.2,0-6.3-0.8-9.1-2.3L4.9,43.3z"></path><path fill="#fff" d="M4.9,43.8c-0.1,0-0.3-0.1-0.4-0.1c-0.1-0.1-0.2-0.3-0.1-0.5L7,33.5c-1.6-2.9-2.5-6.2-2.5-9.6	C4.5,13.2,13.3,4.5,24,4.5c5.2,0,10.1,2,13.8,5.7c3.7,3.7,5.7,8.6,5.7,13.8c0,10.7-8.7,19.5-19.5,19.5c-3.2,0-6.3-0.8-9.1-2.3	L5,43.8C5,43.8,4.9,43.8,4.9,43.8z"></path><path fill="#cfd8dc" d="M24,5c5.1,0,9.8,2,13.4,5.6C41,14.2,43,18.9,43,24c0,10.5-8.5,19-19,19h0c-3.2,0-6.3-0.8-9.1-2.3L4.9,43.3	l2.7-9.8C5.9,30.6,5,27.3,5,24C5,13.5,13.5,5,24,5 M24,43L24,43L24,43 M24,43L24,43L24,43 M24,4L24,4C13,4,4,13,4,24	c0,3.4,0.8,6.7,2.5,9.6L3.9,43c-0.1,0.3,0,0.7,0.3,1c0.2,0.2,0.4,0.3,0.7,0.3c0.1,0,0.2,0,0.3,0l9.7-2.5c2.8,1.5,6,2.2,9.2,2.2	c11,0,20-9,20-20c0-5.3-2.1-10.4-5.8-14.1C34.4,6.1,29.4,4,24,4L24,4z"></path><path fill="#40c351" d="M35.2,12.8c-3-3-6.9-4.6-11.2-4.6C15.3,8.2,8.2,15.3,8.2,24c0,3,0.8,5.9,2.4,8.4L11,33l-1.6,5.8l6-1.6l0.6,0.3	c2.4,1.4,5.2,2.2,8,2.2h0c8.7,0,15.8-7.1,15.8-15.8C39.8,19.8,38.2,15.8,35.2,12.8z"></path><path fill="#fff" fill-rule="evenodd" d="M19.3,16c-0.4-0.8-0.7-0.8-1.1-0.8c-0.3,0-0.6,0-0.9,0s-0.8,0.1-1.3,0.6c-0.4,0.5-1.7,1.6-1.7,4	s1.7,4.6,1.9,4.9s3.3,5.3,8.1,7.2c4,1.6,4.8,1.3,5.7,1.2c0.9-0.1,2.8-1.1,3.2-2.3c0.4-1.1,0.4-2.1,0.3-2.3c-0.1-0.2-0.4-0.3-0.9-0.6	s-2.8-1.4-3.2-1.5c-0.4-0.2-0.8-0.2-1.1,0.2c-0.3,0.5-1.2,1.5-1.5,1.9c-0.3,0.3-0.6,0.4-1,0.1c-0.5-0.2-2-0.7-3.8-2.4	c-1.4-1.3-2.4-2.8-2.6-3.3c-0.3-0.5,0-0.7,0.2-1c0.2-0.2,0.5-0.6,0.7-0.8c0.2-0.3,0.3-0.5,0.5-0.8c0.2-0.3,0.1-0.6,0-0.8	C20.6,19.3,19.7,17,19.3,16z" clip-rule="evenodd"></path>
+      <path fill="#fff" d="M4.9,43.3l2.7-9.8C5.9,30.6,5,27.3,5,24C5,13.5,13.5,5,24,5c5.1,0,9.8,2,13.4,5.6C41,14.2,43,18.9,43,24	c0,10.5-8.5,19-19,19c0,0,0,0,0,0h0c-3.2,0-6.3-0.8-9.1-2.3L4.9,43.3z"></path><path fill="#fff" d="M4.9,43.8c-0.1,0-0.3-0.1-0.4-0.1c-0.1-0.1-0.2-0.3-0.1-0.5L7,33.5c-1.6-2.9-2.5-6.2-2.5-9.6	C4.5,13.2,13.3,4.5,24,4.5c5.2,0,10.1,2,13.8,5.7c3.7,3.7,5.7,8.6,5.7,13.8c0,10.7-8.7,19.5-19.5,19.5c-3.2,0-6.3-0.8-9.1-2.3	L5,43.8C5,43.8,4.9,43.8,4.9,43.8z"></path><path fill="#cfd8dc" d="M24,5c5.1,0,9.8,2,13.4,5.6C41,14.2,43,18.9,43,24c0,10.5-8.5,19-19,19h0c-3.2,0-6.3-0.8-9.1-2.3L4.9,43.3	l2.7-9.8C5.9,30.6,5,27.3,5,24C5,13.5,13.5,5,24,5 M24,43L24,43L24,43 M24,43L24,43L24,43 M24,4L24,4C13,4,4,13,4,24	c0,3.4,0.8,6.7,2.5,9.6L3.9,43c-0.1,0.3,0,0.7,0.3,1c0.2,0.2,0.4,0.3,0.7,0.3c0.1,0,0.2,0,0.3,0l9.7-2.5c2.8,1.5,6,2.2,9.2,2.2	c11,0,20-9,20-20c0-5.3-2.1-10.4-5.8-14.1C34.4,6.1,29.4,4,24,4L24,4z"></path><path fill="#40c351" d="M35.2,12.8c-3-3-6.9-4.6-11.2-4.6C15.3,8.2,8.2,15.3,8.2,24c0,3,0.8,5.9,2.4,8.4L11,33l-1.6,5.8l6-1.6l0.6,0.3	c2.4,1.4,5.2,2.2,8,2.2h0c8.7,0,15.8-7.1,15.8-15.8C39.8,19.8,38.2,15.8,35.2,12.8z"></path><path fill="#fff" fillRule="evenodd" d="M19.3,16c-0.4-0.8-0.7-0.8-1.1-0.8c-0.3,0-0.6,0-0.9,0s-0.8,0.1-1.3,0.6c-0.4,0.5-1.7,1.6-1.7,4	s1.7,4.6,1.9,4.9s3.3,5.3,8.1,7.2c4,1.6,4.8,1.3,5.7,1.2c0.9-0.1,2.8-1.1,3.2-2.3c0.4-1.1,0.4-2.1,0.3-2.3c-0.1-0.2-0.4-0.3-0.9-0.6	s-2.8-1.4-3.2-1.5c-0.4-0.2-0.8-0.2-1.1,0.2c-0.3,0.5-1.2,1.5-1.5,1.9c-0.3,0.3-0.6,0.4-1,0.1c-0.5-0.2-2-0.7-3.8-2.4	c-1.4-1.3-2.4-2.8-2.6-3.3c-0.3-0.5,0-0.7,0.2-1c0.2-0.2,0.5-0.6,0.7-0.8c0.2-0.3,0.3-0.5,0.5-0.8c0.2-0.3,0.1-0.6,0-0.8	C20.6,19.3,19.7,17,19.3,16z" clipRule="evenodd"></path>
     </svg>
   ),
   googleDocs: () => (
@@ -95,7 +95,6 @@ const Icons = {
       <rect width="22" height="22" x="13" y="13" fill="#fff"></rect><polygon fill="#1e88e5" points="25.68,20.92 26.688,22.36 28.272,21.208 28.272,29.56 30,29.56 30,18.616 28.56,18.616"></polygon><path fill="#1e88e5" d="M22.943,23.745c0.625-0.574,1.013-1.37,1.013-2.249c0-1.747-1.533-3.168-3.417-3.168 c-1.602,0-2.972,1.009-3.33,2.453l1.657,0.421c0.165-0.664,0.868-1.146,1.673-1.146c0.942,0,1.709,0.646,1.709,1.44 c0,0.794-0.767,1.44-1.709,1.44h-0.997v1.728h0.997c1.081,0,1.993,0.751,1.993,1.64c0,0.904-0.866,1.64-1.931,1.64 c-0.962,0-1.784-0.61-1.914-1.418L17,26.802c0.262,1.636,1.81,2.87,3.6,2.87c2.007,0,3.64-1.511,3.64-3.368 C24.24,25.281,23.736,24.363,22.943,23.745z"></path><polygon fill="#fbc02d" points="34,42 14,42 13,38 14,34 34,34 35,38"></polygon><polygon fill="#4caf50" points="38,35 42,34 42,14 38,13 34,14 34,34"></polygon><path fill="#1e88e5" d="M34,14l1-4l-1-4H9C7.343,6,6,7.343,6,9v25l4,1l4-1V14H34z"></path><polygon fill="#e53935" points="34,34 34,42 42,34"></polygon><path fill="#1565c0" d="M39,6h-5v8h8V9C42,7.343,40.657,6,39,6z"></path><path fill="#1565c0" d="M9,42h5v-8H6v5C6,40.657,7.343,42,9,42z"></path>
     </svg>
   ),
-
 };
 
 const AutomationSection = () => {
@@ -114,110 +113,123 @@ const AutomationSection = () => {
   return (
     <section id="automation" className="py-28 relative overflow-hidden">
       <div className="container mx-auto px-6">
-        <AnimatedSection className="text-center mb-16">
+        <AnimatedSection className="text-center mb-16 max-w-3xl mx-auto">
           <p className="text-sm font-medium text-accent uppercase tracking-widest mb-3">AI & Automation</p>
-          <h2 className="font-display text-4xl sm:text-5xl font-bold mb-6">Streamline Your Workflows</h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto mb-8">
-            We leverage powerful tools like <span className="text-primary font-semibold">n8n</span> and <span className="text-primary font-semibold">AI</span> to automate your business processes, saving you hundreds of hours every month.
+          <h2 className="font-display text-4xl sm:text-5xl font-bold mb-6">Automate the Work That Slows Your Business Down</h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto mb-8 text-lg leading-relaxed">
+            We use tools like <span className="text-primary font-semibold">n8n</span>, <span className="text-primary font-semibold">AI</span>, and your existing apps to automate lead follow-up, booking, reminders, and repetitive internal workflows.
           </p>
           <Link to="/booking">
-            <Button size="lg" className="rounded-full px-8 shadow-lg shadow-primary/20 hover:shadow-primary/30 transition-all duration-300">
-              Start a Project
+            <Button size="lg" className="rounded-full px-8 shadow-lg text-md shadow-primary/20 hover:shadow-primary/30 transition-all duration-300">
+              AI Automate My Business
             </Button>
           </Link>
         </AnimatedSection>
 
-        <div
-          className="relative flex h-[500px] md:h-[600px] w-full items-center justify-center overflow-hidden glass-card p-4 sm:p-10 mt-12 bg-background"
-          ref={containerRef}
-        >
-          <DotPattern
-            className={cn(
-              "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)] md:[mask-image:radial-gradient(500px_circle_at_center,white,transparent)] lg:[mask-image:radial-gradient(800px_circle_at_center,white,transparent)]",
-              "opacity-40"
-            )}
-          />
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(151,192,44,0.05)_0%,transparent_70%)] pointer-events-none" />
-          <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ delay: 1.5, duration: 1 }}>
-            <AnimatedBeam containerRef={containerRef} fromRef={div1Ref} toRef={div4Ref} curvature={-75} endYOffset={-10} gradientStartColor="#97c02c" gradientStopColor="#97c02c" />
-            <AnimatedBeam containerRef={containerRef} fromRef={div2Ref} toRef={div4Ref} gradientStartColor="#97c02c" gradientStopColor="#97c02c" />
-            <AnimatedBeam containerRef={containerRef} fromRef={div3Ref} toRef={div4Ref} curvature={75} endYOffset={10} gradientStartColor="#97c02c" gradientStopColor="#97c02c" />
-            <AnimatedBeam containerRef={containerRef} fromRef={div8Ref} toRef={div4Ref} curvature={-45} gradientStartColor="#97c02c" gradientStopColor="#97c02c" />
-            <AnimatedBeam containerRef={containerRef} fromRef={div10Ref} toRef={div4Ref} curvature={45} gradientStartColor="#97c02c" gradientStopColor="#97c02c" />
+        <div className="grid lg:grid-cols-[1.1fr_1fr] gap-10 items-center">
+          <div className="space-y-4 order-2 lg:order-1">
+            {[
+              "Capture leads instantly and route them to the right place",
+              "Send automatic follow-up messages so enquiries do not go cold",
+              "Reduce manual admin and repetitive busywork",
+              "Connect your tools so your team works with fewer bottlenecks",
+            ].map((item) => (
+              <div key={item} className="glass-card p-5 text-muted-foreground leading-relaxed">{item}</div>
+            ))}
+          </div>
 
-            <AnimatedBeam containerRef={containerRef} fromRef={div5Ref} toRef={div4Ref} curvature={-75} endYOffset={-10} reverse gradientStartColor="#97c02c" gradientStopColor="#97c02c" />
-            <AnimatedBeam containerRef={containerRef} fromRef={div6Ref} toRef={div4Ref} reverse gradientStartColor="#97c02c" gradientStopColor="#97c02c" />
-            <AnimatedBeam containerRef={containerRef} fromRef={div7Ref} toRef={div4Ref} curvature={75} endYOffset={10} reverse gradientStartColor="#f8fafc" gradientStopColor="#97c02c" />
-            <AnimatedBeam containerRef={containerRef} fromRef={div9Ref} toRef={div4Ref} curvature={-45} reverse gradientStartColor="#97c02c" gradientStopColor="#97c02c" />
-          </motion.div>
+          <div
+            className="relative flex h-[500px] md:h-[600px] w-full items-center justify-center overflow-hidden glass-card p-4 sm:p-10 bg-background order-1 lg:order-2"
+            ref={containerRef}
+          >
+            <DotPattern
+              className={cn(
+                "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)] md:[mask-image:radial-gradient(500px_circle_at_center,white,transparent)] lg:[mask-image:radial-gradient(800px_circle_at_center,white,transparent)]",
+                "opacity-40"
+              )}
+            />
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(151,192,44,0.05)_0%,transparent_70%)] pointer-events-none" />
+            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ delay: 1.5, duration: 1 }}>
+              <AnimatedBeam containerRef={containerRef} fromRef={div1Ref} toRef={div4Ref} curvature={-75} endYOffset={-10} gradientStartColor="#97c02c" gradientStopColor="#97c02c" />
+              <AnimatedBeam containerRef={containerRef} fromRef={div2Ref} toRef={div4Ref} gradientStartColor="#97c02c" gradientStopColor="#97c02c" />
+              <AnimatedBeam containerRef={containerRef} fromRef={div3Ref} toRef={div4Ref} curvature={75} endYOffset={10} gradientStartColor="#97c02c" gradientStopColor="#97c02c" />
+              <AnimatedBeam containerRef={containerRef} fromRef={div8Ref} toRef={div4Ref} curvature={-45} gradientStartColor="#97c02c" gradientStopColor="#97c02c" />
+              <AnimatedBeam containerRef={containerRef} fromRef={div10Ref} toRef={div4Ref} curvature={45} gradientStartColor="#97c02c" gradientStopColor="#97c02c" />
 
-          <div className="flex size-full max-w-4xl flex-col items-stretch justify-between gap-10 relative z-10">
-            <div className="flex flex-row items-center justify-between">
-              <div className="flex flex-col gap-10">
-                <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 0.5 }}>
-                  <Circle ref={div1Ref} className="glow-border-primary/30">
-                    <Icons.googleDrive />
+              <AnimatedBeam containerRef={containerRef} fromRef={div5Ref} toRef={div4Ref} curvature={-75} endYOffset={-10} reverse gradientStartColor="#97c02c" gradientStopColor="#97c02c" />
+              <AnimatedBeam containerRef={containerRef} fromRef={div6Ref} toRef={div4Ref} reverse gradientStartColor="#97c02c" gradientStopColor="#97c02c" />
+              <AnimatedBeam containerRef={containerRef} fromRef={div7Ref} toRef={div4Ref} curvature={75} endYOffset={10} reverse gradientStartColor="#f8fafc" gradientStopColor="#97c02c" />
+              <AnimatedBeam containerRef={containerRef} fromRef={div9Ref} toRef={div4Ref} curvature={-45} reverse gradientStartColor="#97c02c" gradientStopColor="#97c02c" />
+            </motion.div>
+
+            <div className="flex size-full max-w-4xl flex-col items-stretch justify-between gap-10 relative z-10">
+              <div className="flex flex-row items-center justify-between">
+                <div className="flex flex-col gap-10">
+                  <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 0.5 }}>
+                    <Circle ref={div1Ref} className="glow-border-primary/30">
+                      <Icons.googleDrive />
+                    </Circle>
+                  </motion.div>
+                  <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 0.7 }}>
+                    <Circle ref={div8Ref} className="glow-border-primary/30">
+                      <Icons.slack />
+                    </Circle>
+                  </motion.div>
+                </div>
+                <div className="flex flex-col gap-10">
+                  <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 0.9 }}>
+                    <Circle ref={div5Ref} className="glow-border-primary/30">
+                      <Icons.googleDocs />
+                    </Circle>
+                  </motion.div>
+                  <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 0.9 }}>
+                    <Circle ref={div9Ref} className="glow-border-primary/30">
+                      <Icons.discord />
+                    </Circle>
+                  </motion.div>
+                </div>
+              </div>
+              <div className="flex flex-row items-center justify-between">
+                <div className="flex flex-col gap-10">
+                  <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 1.2 }}>
+                    <Circle ref={div2Ref} className="glow-border-primary/30">
+                      <Icons.notion />
+                    </Circle>
+                  </motion.div>
+                  <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 1.3 }}>
+                    <Circle ref={div10Ref} className="glow-border-primary/30">
+                      <Icons.calendar />
+                    </Circle>
+                  </motion.div>
+                </div>
+                <motion.div initial={{ opacity: 0, scale: 0.5 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ type: "spring", stiffness: 260, damping: 20, delay: 0 }}>
+                  <Circle ref={div4Ref} className="size-24 border-[#ea4b71] bg-[#ea4b71] shadow-[0_0_40px_rgba(234,75,113,0.4)] border-2 z-20">
+                    <div className="flex flex-col items-center gap-1">
+                      <Icons.n8n />
+                      <span className="text-sm font-bold text-white tracking-tighter"></span>
+                    </div>
                   </Circle>
                 </motion.div>
-                <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 0.7 }}>
-                  <Circle ref={div8Ref} className="glow-border-primary/30">
-                    <Icons.slack />
+                <div className="flex flex-col gap-10">
+                  <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 0.5 }}>
+                    <Circle ref={div6Ref} className="glow-border-primary/30">
+                      <Icons.zapier />
+                    </Circle>
+                  </motion.div>
+                </div>
+              </div>
+              <div className="flex flex-row items-center justify-between">
+                <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.4 }}>
+                  <Circle ref={div3Ref} className="glow-border-primary/30">
+                    <Icons.whatsapp />
+                  </Circle>
+                </motion.div>
+                <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.6 }}>
+                  <Circle ref={div7Ref} className="glow-border-primary/30">
+                    <Icons.openai />
                   </Circle>
                 </motion.div>
               </div>
-              <div className="flex flex-col gap-10">
-                <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 0.9 }}>
-                  <Circle ref={div5Ref} className="glow-border-primary/30">
-                    <Icons.googleDocs />
-                  </Circle>
-                </motion.div>
-                <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 0.9 }}>
-                  <Circle ref={div9Ref} className="glow-border-primary/30">
-                    <Icons.discord />
-                  </Circle>
-                </motion.div>
-              </div>
-            </div>
-            <div className="flex flex-row items-center justify-between">
-              <div className="flex flex-col gap-10">
-                <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 1.2 }}>
-                  <Circle ref={div2Ref} className="glow-border-primary/30">
-                    <Icons.notion />
-                  </Circle>
-                </motion.div>
-                <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 1.3 }}>
-                  <Circle ref={div10Ref} className="glow-border-primary/30">
-                    <Icons.calendar />
-                  </Circle>
-                </motion.div>
-              </div>
-              <motion.div initial={{ opacity: 0, scale: 0.5 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ type: "spring", stiffness: 260, damping: 20, delay: 0 }}>
-                <Circle ref={div4Ref} className="size-24 border-[#ea4b71] bg-[#ea4b71] shadow-[0_0_40px_rgba(234,75,113,0.4)] border-2 z-20">
-                  <div className="flex flex-col items-center gap-1">
-                    <Icons.n8n />
-                    <span className="text-sm font-bold text-white tracking-tighter"></span>
-                  </div>
-                </Circle>
-              </motion.div>
-              <div className="flex flex-col gap-10">
-                <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 0.5 }}>
-                  <Circle ref={div6Ref} className="glow-border-primary/30">
-                    <Icons.zapier />
-                  </Circle>
-                </motion.div>
-              </div>
-            </div>
-            <div className="flex flex-row items-center justify-between">
-              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.4 }}>
-                <Circle ref={div3Ref} className="glow-border-primary/30">
-                  <Icons.whatsapp />
-                </Circle>
-              </motion.div>
-              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.6 }}>
-                <Circle ref={div7Ref} className="glow-border-primary/30">
-                  <Icons.openai />
-                </Circle>
-              </motion.div>
             </div>
           </div>
         </div>
